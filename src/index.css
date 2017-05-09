@@ -1,0 +1,55 @@
+body {
+  /*text-align: center;*/
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 2em;
+}
+/*h3 {
+  font-size: 1.5em;
+}*/
+
+.Header {
+  text-align: center
+}
+
+.Header input{
+  display: block;
+  width: 260px;
+  margin: 0px auto;
+  margin-bottom: 5px;
+}
+.Header textarea {
+  display: block;
+  margin: 0px auto;
+}
+.Header button {
+  margin: 0px auto
+}
+
+.PostBlock {
+  position: relative;
+  left: 3%;
+}
+
+.Post > pre {
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
+
+.Reply {
+  position: relative;
+  left: 8%;
+}
+
+span {
+  font-size: 0.6em;
+  color: gray;
+  font-family: monospace;
+}
